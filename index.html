@@ -10,9 +10,9 @@
       (function () {
         try {
           document.documentElement.dataset.theme =
-            localStorage.getItem("ziki-theme") || "dark";
+            localStorage.getItem("ziki-theme") || "light";
         } catch (e) {
-          document.documentElement.dataset.theme = "dark";
+          document.documentElement.dataset.theme = "light";
         }
       })();
     </script>
